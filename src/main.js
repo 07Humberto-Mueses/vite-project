@@ -25,7 +25,7 @@ const button = Button("Buscar", async () => {
   const playerName = inputElement.value;
 
   if (!playerName.trim()) {
-    alert("Por favor ingrese el nombre de un jugador de futbol valido");
+    alert("El nombre no es valido, por favor ingrese el nombre de un jugador de futbol valido");
     return;
   }
 
