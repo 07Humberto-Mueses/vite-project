@@ -30,7 +30,8 @@ const button = Button("Buscar", async () => {
   }
 
   const resultContainer = document.getElementById("result-container");
-  resultContainer.innerHTML = "<p>Buscando información del jugador...</p>";
+  resultContainer.innerHTML =
+    "<p>Buscando información del jugador seleccionado...</p>";
 
   try {
     const playerData = await fetchPlayerInfo(playerName);
