@@ -42,7 +42,7 @@ const button = Button("Buscar", async () => {
       resultContainer.appendChild(PlayerCard(playerData));
     } else {
       resultContainer.innerHTML =
-        "<p>No se pudo encontrar información para este jugador.</p>";
+        "<p>No se pudo encontrar Detalles para este jugador.</p>";
     }
   } catch (error) {
     resultContainer.innerHTML = `<p>Error: ${error.message}</p>`;
